@@ -1,0 +1,81 @@
+.topbar {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 9999;
+}
+.topbar::after{
+    display: block;
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 100%;
+         width: 0%;
+         height: 100%;
+         background-color: rgb(197, 67, 67);
+}
+.topbar-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.topbar-navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    max-width: 1600px;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-logo {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-left: 30px;
+    cursor: pointer;
+    font-family: 'Fredericka the Great', cursive;
+}
+.navbar-logo:hover{
+    transform: rotate(45%);
+}
+.navbar-menu {
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 0;
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+@media screen and (max-width: 450px ) {
+    .navbar-logo {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .navbar-menu {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
+
+.sidebar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 80px;
+    background-color: black;
+    color: white;
+}
+
+.back {
+    cursor: pointer;
+}

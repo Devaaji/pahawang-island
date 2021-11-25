@@ -1,0 +1,73 @@
+.menu-navigation {
+    display: none;
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    color: whitesmoke;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.menu-secondary-background-color{
+    background: rgba(103, 91, 59, 0.555);
+    background: radial-gradient(circle, rgba(103,91,59,1) 0%, rgba(0,0,0,1) 100%);
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+.menu-layer{
+    position: relative;
+    background: url('../../assets/pexels-jeremy-bishop-2397651.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    border-top: 10px solid rgba(255, 255, 255, 0.76);
+    overflow: hidden;
+}
+.menu-layer-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 49, 78, 0.671);
+}
+.menu-link{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding:50px 10px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+    font-size: 5rem;
+    font-weight: 100;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    transform: translateY(-10%);
+}
+li:hover {
+    color: rgb(199, 51, 51);
+}
+

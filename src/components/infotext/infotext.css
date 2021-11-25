@@ -1,0 +1,40 @@
+.infotext {
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.info-container {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-scroll {
+    font-size: 100px;
+    display: inline-block;
+    transform: translateX(100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 0;
+}
+.text-scroll-1 {
+    font-size: 100px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translateX(-100%);
+}
+
+@media screen and (max-width: 768px) {
+    .text-scroll {
+        font-size: 50px;
+    }
+    .text-scroll-1 {
+        font-size: 50px;
+    }
+}
