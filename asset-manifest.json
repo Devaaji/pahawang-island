@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pahawang-island/static/css/main.a4447919.chunk.css",
-    "main.js": "/pahawang-island/static/js/main.cfc08f0a.chunk.js",
-    "main.js.map": "/pahawang-island/static/js/main.cfc08f0a.chunk.js.map",
+    "main.css": "/pahawang-island/static/css/main.14d1a4f1.chunk.css",
+    "main.js": "/pahawang-island/static/js/main.1e008025.chunk.js",
+    "main.js.map": "/pahawang-island/static/js/main.1e008025.chunk.js.map",
     "runtime-main.js": "/pahawang-island/static/js/runtime-main.3d75cd2f.js",
     "runtime-main.js.map": "/pahawang-island/static/js/runtime-main.3d75cd2f.js.map",
     "static/js/2.1f800751.chunk.js": "/pahawang-island/static/js/2.1f800751.chunk.js",
     "static/js/2.1f800751.chunk.js.map": "/pahawang-island/static/js/2.1f800751.chunk.js.map",
     "index.html": "/pahawang-island/index.html",
-    "static/css/main.a4447919.chunk.css.map": "/pahawang-island/static/css/main.a4447919.chunk.css.map",
+    "static/css/main.14d1a4f1.chunk.css.map": "/pahawang-island/static/css/main.14d1a4f1.chunk.css.map",
     "static/js/2.1f800751.chunk.js.LICENSE.txt": "/pahawang-island/static/js/2.1f800751.chunk.js.LICENSE.txt",
     "static/media/home.css": "/pahawang-island/static/media/fidelia-zheng-SRd8je3VIcE-unsplash.e6f2835a.jpg",
     "static/media/showisland.css": "/pahawang-island/static/media/gambar3.2e170cec.jpeg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d75cd2f.js",
     "static/js/2.1f800751.chunk.js",
-    "static/css/main.a4447919.chunk.css",
-    "static/js/main.cfc08f0a.chunk.js"
+    "static/css/main.14d1a4f1.chunk.css",
+    "static/js/main.1e008025.chunk.js"
   ]
 }
